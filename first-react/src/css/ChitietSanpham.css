@@ -1,0 +1,381 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.body{
+    background-color: whitesmoke;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+ion-icon {
+    vertical-align:top;
+    margin-left: 3px;
+}
+button{
+    cursor: pointer;
+}
+.main{
+    position: relative;
+    background-color: rgb(245,245,245);
+    margin: 0px 10vw 0px 10vw;
+}
+.headerfake{
+    z-index: 1;
+    height: 165px;
+    background-color: rgb(196, 212, 212);
+}
+.thongtinsanpham{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.left{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    /* height: 900px; */
+}
+.hinhanh{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+}
+.hinhanh>div{
+    width: 100%;
+    position: relative;
+}
+.hinhanh>div>img{
+    height: 400px;
+    max-width: 90%;
+}
+.list-img{
+    height: 100px;
+    padding: 0px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.list-img>li{
+    height: 90%;
+    background-color: white;
+    margin: 0px 5px;
+}
+.list-img>li>img{
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(90, 90, 90, 0.482);
+}
+.hinhanh>div>button{
+    position: absolute;
+    top:50%;
+    font-size: larger;
+    font-weight: 700;
+    color: whitesmoke;
+    background-color: rgb(203, 203, 203);
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    align-items: center;
+}
+.hinhanh>div>button:hover{
+    transform: scale(1.2);
+}
+
+.khuyenmai{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:20px 0px;
+}
+.quatang{
+    flex-basis: 45%;
+    border: 2px solid rgb(47, 255, 75);
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    padding-top: 20px;
+    background-color: white;
+}
+.quatang>h4{
+    position: absolute;
+    top:-40px;
+    background-color: rgb(22,198,12);
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: black;
+    font-weight: 600;
+}
+.quatang>li{
+    margin: 10px;
+    font-size: 13px;
+}
+.baohanh{
+    flex-basis: 45%;
+    border: 2px solid rgb(43,128,221);
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    padding-top: 20px;
+    background-color: white;
+}
+.baohanh>h4{
+    position: absolute;
+    top:-40px;
+    background-color: rgb(43,128,221);
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+}
+.baohanh>li{
+    margin: 10px 10px;
+    font-size: 13px;
+}
+.baohanh>li>p{
+    margin: 5px;
+    text-align: end;
+    color: red;
+}
+.more{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px gray;
+}
+.more>h3{
+    margin: 0px;
+}
+.more>span:hover {
+    color: blue;
+    cursor: pointer; /* Biến con trỏ thành bàn tay giống thẻ <a> */
+}
+.more>h3>ion-icon{
+    color: orange;
+}
+.right{
+    flex-basis: 45%;
+}
+.muahang{
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    height: fit-content;
+    background-color: white;
+}
+.muahang>p{
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.muahang>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+.muahang>div>div{
+    flex-basis: 49%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 140px;
+    position: relative;
+    justify-items: center;
+    align-items: center;
+}
+.now>h1{
+    margin: 0px;
+    color: red;
+    text-align: center;
+}
+.now>a{
+    bottom:0px;
+    width: 150px;
+    font-size: larger;
+    font-weight: 700;
+    color: whitesmoke;
+    background-color: rgba(255, 25, 25, 0.813);
+    border: 2px solid rgb(78, 78, 78);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+}
+.monthly>h3{
+    margin: 8px;
+}
+.monthly>a{
+    bottom:0px;
+    width: 150px;
+    font-size: larger;
+    font-weight: 700;
+    color: whitesmoke;
+    background-color: rgb(43,128,221);
+    border: 1px solid rgb(78, 78, 78);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    transform: scale(0.9);
+}
+.muahang>div>div>a:hover{
+    transform: scale(1.1);
+}
+.now>p{
+    position: absolute;
+    right:0%;
+    top:50%;
+    transform: translateX(80%);
+}
+.muahang>h3{
+    text-align: center;
+}
+.thongso{   
+    margin-top: 20px;
+    background-color: white;
+    justify-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid gray;
+    padding: 8px;
+}
+th {
+    text-align: center;
+    width: 100px;
+}
+
+.table>tbody>tr:nth-child(2n-1){
+    background-color: #f2f2f2;
+}
+
+.binhluan{
+    background-color: white;
+    border-radius: 20px;
+}
+.vote{
+    padding:50px;
+}
+.ketquadanhgia{
+    display: flex;
+    flex-direction: row;
+}
+.tongdanhgia{
+    flex-basis: 20%;
+    justify-items: center;
+}
+.tongdanhgia>p{
+    font-size: 50px;
+    font-weight: 800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.tongdanhgia>h4{
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tongdanhgia>ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+.tongdanhgia>button{
+    height: 40px;
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(220,38,38);
+    color: rgb(253,244,244);
+    font-size: 16px;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 10px;
+}
+.chitietdanhgia{
+    flex-basis: 60%;
+}
+.chitietdanhgia>ul>li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+}
+#progressBar{
+    margin: 0px 10px 0px 10px;
+    height: 30px;
+    width: 85%;
+}
+.locdanhgia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 15vw;
+    margin-left: 20px;
+}
+
+.locdanhgia>ul{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-evenly;
+}
+.locdanhgia>ul>li{
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    border-radius: 25px;
+    padding: 10px;
+}
+.locdanhgia>ul>li:hover{
+    cursor: pointer;
+}
+.locdanhgia>ul>li:first-child, .locdanhgia>ul>li:hover{
+    color: red;
+    border: 1px solid red;
+}
+.cmt, .uploadimages{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.cmt>input{
+    min-height: 20px;
+    width: 40vw;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
+    padding: 15px;
+}
+.cmt>button{
+    background-color: red;
+    color: whitesmoke;
+    height:50px;
+    padding:5px 10px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: larger;
+}
+#user-cmt{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    padding-bottom:5px;
+    padding-right:20vw;
+    height: fit-content;
+}
+#user-cmt>img{
+    margin-top: 15px;
+    margin-right:15px;
+    height:50px;
+}

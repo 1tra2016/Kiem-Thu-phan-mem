@@ -1,0 +1,70 @@
+.headerFake{
+    margin-bottom: 20px;
+}
+.khungmainsp{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainsp{
+    margin: 0px 10%;
+    height: auto;
+}
+.locphankhuc{
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+    display: flex;
+    margin-top: 20px;
+}
+.textlpk{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.phankhuc{
+    width: fit-content;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    border: 1px solid rgb(64, 64, 64);
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+.phankhuc:hover{
+    transform: scale(1.03);
+}
+.select{
+    background-color: rgb(0, 153, 255);
+    color: whitesmoke
+}
+
+
+.chuyentrang{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.boxso{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.boxso :hover{
+    color:gray;
+}
+.boxso a{
+    text-decoration: none;
+}
+.so{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
