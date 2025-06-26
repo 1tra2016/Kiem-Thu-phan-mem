@@ -89,7 +89,13 @@
       "name": "Trà",
       "numberphone": "012345",
       "email": "12345@gmail.com",
-      "password": "12345"
+      "password": "12345",
+      "cart": [
+        {
+          "id": "1",
+          "number": 1
+        }
+      ]
     },
     {
       "id": "95f2",
@@ -109,6 +115,10 @@
         {
           "id": "4",
           "number": 1
+        },
+        {
+          "id": "f6a9",
+          "number": 5
         }
       ]
     },
@@ -124,7 +134,13 @@
       "name": "<script>alert('XSS')</script>",
       "numberphone": "<script>alert('XSS')</script>",
       "email": "abc12345@gmail.com",
-      "password": "12345"
+      "password": "12345",
+      "cart": [
+        {
+          "id": "1",
+          "number": 1
+        }
+      ]
     },
     {
       "id": "d13b",
@@ -154,7 +170,7 @@
       "name": "[New 100%] Laptop Asus TUF Gaming A15 FA506NF-HN005W là một sản phẩm có tên dài",
       "price": 29999000,
       "monthly": 299990,
-      "remain": 87,
+      "remain": 85,
       "cpu": "AMD Ryzen 7735H (3.20 GHz - 4.75 GHz, 8 cores, 16 threads)",
       "ram": "Ram 16GB LPDDR5 6400MHz",
       "drive": "512 GB SSD",
@@ -301,6 +317,28 @@
         "https://sazo.vn/storage/products/y7000/1-1.png",
         "https://sazo.vn/storage/products/y7000/5.png",
         "https://sazo.vn/storage/products/y7000/7.png"
+      ]
+    },
+    {
+      "id": "f6a9",
+      "name": "[New 100%] Lenovo Legion Y7000P 2025 (Core i7-14650HX, 16GB, 1TB, RTX 5060 8GB, 16'' 2K+ 240Hz)",
+      "price": "32890000",
+      "monthly": "3289000",
+      "remain": -2,
+      "cpu": "Intel® Core i7-14650HX,",
+      "ram": "16GB DDR5 5600MHz",
+      "drive": "1TB PCIe NVMe M.2 SSD Gen 4",
+      "card": "NVIDIA Geforce RTX 5060 8GB GDDR7",
+      "screen": "16\" WQXGA (2560x1600) IPS, non-touch, 16:10, 500nits, 240Hz, 100% sRGB, Dolby Vision, AMD FreeSync Premium, NVidia G-Sync, DC dimmer",
+      "camera": "HD Webcam",
+      "port": "2x USB-C 10Gbps, support DP 2.1, PD 3.0 2x USB-A 3.2 Gen 1 5Gbps 1x USB-A 3.2 Gen 1 10Gbps 1x RJ45 1x HDMI 2.1 1x Jack 3.5mm 1x Power input",
+      "weight": "2.3 kg ",
+      "pin": "4cell, 80whr, Super Rapid Charge",
+      "system": "Windows bản quyền",
+      "images": [
+        "https://laptopaz.vn/media/lib/3732_NVP03204.jpg",
+        "https://laptopaz.vn/media/lib/3732_NVP03188.jpg",
+        "https://laptopaz.vn/media/lib/3732_NVP03197.jpg"
       ]
     }
   ]
